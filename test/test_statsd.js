@@ -680,4 +680,13 @@ describe('StatsD', function(){
     });
   });
 
+  describe('#ttl', () => {
+    it('', done => {
+      const statsD = new StatsD({ cacheDns: true, ttl: 1000 })
+      statsD.on('changeDNS', (address) => {
+        assert.equal(statsD.host, address);
+        done()
+      })
+    })
+  });
 });
