@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/sivy/node-statsd.git"
+    "url": "git://github.com/yejiayu/ttl-node-statsd.git"
   },
   "bugs": {
     "url": "https://github.com/sivy/node-statsd/issues"
