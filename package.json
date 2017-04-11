@@ -1,4 +1,4 @@
-{ "name" : "node-statsd"
+{ "name" : "ttl-node-statsd"
 , "description" : "node client for Etsy'd StatsD server"
 , "version" : "0.1.1"
 , "author" : "Steve Ivy"
