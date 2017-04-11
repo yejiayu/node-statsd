@@ -1,4 +1,4 @@
-# node-statsd
+# ttl-node-statsd
 
 A node.js client for [Etsy](http://etsy.com)'s [StatsD](https://github.com/etsy/statsd) server.
 
@@ -27,6 +27,7 @@ Parameters (specified as an options hash):
 * `cacheDns`:    Cache the initial dns lookup to *host* `default: false`
 * `mock`:        Create a mock StatsD instance, sending no stats to the server? `default: false`
 * `global_tags`: Optional tags that will be added to every metric `default: []`
+* `ttl`: Optional ttl that will timing(ms) lookup DNS `default: null`
 
 All StatsD methods have the same API:
 * `name`:       Stat name `required`
@@ -104,4 +105,3 @@ If you want to catch errors in sending a message then use the callback provided.
 ## License
 
 node-statsd is licensed under the MIT license.
-
